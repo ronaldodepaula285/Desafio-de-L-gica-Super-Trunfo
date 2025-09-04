@@ -70,11 +70,11 @@ int main() {
 
     
     if (pib_per_capita1 > pib_per_capita2) {
-        printf("Vencedor: %s\n", cidade1);
-    } else if (pib_per_capita2 > pib_per_capita1) {
-        printf("Vencedor: %s\n", cidade2);
+        printf("\nVencedor: %s\n", cidade1);
+    } else {
+        printf("\nVENCEDOR: %s\n", cidade2);
     }
-    
+    printf("\n*********************\n");
   
     
     
